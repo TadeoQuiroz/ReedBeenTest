@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Login
+Partial Class Pantalla_Login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,19 +23,19 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim Label1 As System.Windows.Forms.Label
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Pantalla_Login))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.btnRound = New System.Windows.Forms.Button()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ShapedPanel2 = New Login.ShapedPanel()
-        Me.ShapedPanel3 = New Login.ShapedPanel()
+        Me.ShapedPanel2 = New Pantalla_Login.ShapedPanel()
+        Me.ShapedPanel3 = New Pantalla_Login.ShapedPanel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ShapedPanel4 = New Login.ShapedPanel()
-        Me.ShapedPanel7 = New Login.ShapedPanel()
-        Me.ShapedPanel1 = New Login.ShapedPanel()
+        Me.ShapedPanel4 = New Pantalla_Login.ShapedPanel()
+        Me.ShapedPanel7 = New Pantalla_Login.ShapedPanel()
+        Me.ShapedPanel1 = New Pantalla_Login.ShapedPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Label1 = New System.Windows.Forms.Label()

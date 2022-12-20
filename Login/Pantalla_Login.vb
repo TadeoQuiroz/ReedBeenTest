@@ -2,7 +2,7 @@
 Imports System.Drawing.Drawing2D
 Imports System.Runtime.InteropServices
 
-Public Class Login
+Public Class Pantalla_Login
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RoundButton(btnRound)
