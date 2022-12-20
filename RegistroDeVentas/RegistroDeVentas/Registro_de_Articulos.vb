@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class Registro_de_Articulos
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub

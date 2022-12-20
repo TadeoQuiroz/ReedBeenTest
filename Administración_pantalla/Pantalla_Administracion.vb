@@ -2,7 +2,7 @@
 Imports System.Drawing.Drawing2D
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar
 
-Public Class Form1
+Public Class Pantalla_Administracion
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
