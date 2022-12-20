@@ -33,13 +33,13 @@ Partial Class Registro_de_Articulos
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -142,55 +142,15 @@ Partial Class Registro_de_Articulos
         Me.Panel1.Size = New System.Drawing.Size(1182, 119)
         Me.Panel1.TabIndex = 6
         '
-        'Button2
+        'Button8
         '
-        Me.Button2.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button2.Location = New System.Drawing.Point(148, 0)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(152, 119)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Historial del Stock"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button3.Location = New System.Drawing.Point(297, 0)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(152, 119)
-        Me.Button3.TabIndex = 7
-        Me.Button3.Text = "Imprimir"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button4.Location = New System.Drawing.Point(445, 0)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(152, 119)
-        Me.Button4.TabIndex = 8
-        Me.Button4.Text = "Guardar como PDF"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button5.Location = New System.Drawing.Point(590, 0)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(152, 119)
-        Me.Button5.TabIndex = 9
-        Me.Button5.Text = "Excel"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button6.Location = New System.Drawing.Point(738, 0)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(152, 119)
-        Me.Button6.TabIndex = 10
-        Me.Button6.Text = "Informe"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button8.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button8.Location = New System.Drawing.Point(1033, 0)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(152, 119)
+        Me.Button8.TabIndex = 7
+        Me.Button8.Text = "Ayuda"
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'Button7
         '
@@ -202,15 +162,55 @@ Partial Class Registro_de_Articulos
         Me.Button7.Text = "Inventario rapido"
         Me.Button7.UseVisualStyleBackColor = False
         '
-        'Button8
+        'Button6
         '
-        Me.Button8.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Button8.Location = New System.Drawing.Point(1033, 0)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(152, 119)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Ayuda"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.Button6.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button6.Location = New System.Drawing.Point(738, 0)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(152, 119)
+        Me.Button6.TabIndex = 10
+        Me.Button6.Text = "Informe"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button5.Location = New System.Drawing.Point(590, 0)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(152, 119)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "Excel"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button4.Location = New System.Drawing.Point(445, 0)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(152, 119)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "Guardar como PDF"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button3.Location = New System.Drawing.Point(297, 0)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(152, 119)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "Imprimir"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button2.Location = New System.Drawing.Point(148, 0)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(152, 119)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Historial del Stock"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
@@ -342,7 +342,7 @@ Partial Class Registro_de_Articulos
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'Form2
+        'Registro_de_Articulos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -358,7 +358,7 @@ Partial Class Registro_de_Articulos
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Name = "Form2"
+        Me.Name = "Registro_de_Articulos"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)

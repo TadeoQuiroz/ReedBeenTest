@@ -44,7 +44,7 @@ Partial Class Pantalla_Administracion
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.PictureBox24 = New System.Windows.Forms.PictureBox()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
-        Me.ShapedPanel1 = New Administración_pantalla.ShapedPanel()
+        Me.ShapedPanel1 = New Login.ShapedPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -175,6 +175,7 @@ Partial Class Pantalla_Administracion
         Button14.TabIndex = 73
         Button14.Text = "<-"
         Button14.UseVisualStyleBackColor = False
+        AddHandler Button14.Click, AddressOf Me.Button14_Click
         '
         'Button25
         '
@@ -190,7 +191,6 @@ Partial Class Pantalla_Administracion
         Button25.TabIndex = 47
         Button25.Text = "Tablero"
         Button25.UseVisualStyleBackColor = False
-        AddHandler Button25.Click, AddressOf Me.Button25_Click
         '
         'Button24
         '
@@ -215,6 +215,7 @@ Partial Class Pantalla_Administracion
         Button23.TabIndex = 49
         Button23.Text = "Productos"
         Button23.UseVisualStyleBackColor = False
+        AddHandler Button23.Click, AddressOf Me.Button23_Click
         '
         'Button22
         '
@@ -491,7 +492,7 @@ Partial Class Pantalla_Administracion
         Me.Button2.Text = "<<"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Form1
+        'Pantalla_Administracion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
@@ -502,10 +503,11 @@ Partial Class Pantalla_Administracion
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.MinimizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "Pantalla_Administracion"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Redweb - POS "
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()

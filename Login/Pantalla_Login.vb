@@ -63,7 +63,12 @@ Public Class Pantalla_Login
     End Sub
 
     Private Sub btnRound_Click(sender As Object, e As EventArgs) Handles btnRound.Click
-        Registro_de_Ventas_Articulos.Registro_de_Ventas.Show()
+
+        Dim box = New Registro_de_Ventas
+        box.Show()
+
+        Me.Hide()
+
     End Sub
 End Class
 
