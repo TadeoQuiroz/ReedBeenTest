@@ -496,12 +496,12 @@ Partial Class Pantalla_Administracion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(740, 628)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.IsMdiContainer = True
         Me.MinimizeBox = False
         Me.Name = "Pantalla_Administracion"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show

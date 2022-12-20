@@ -1,12 +1,17 @@
 ﻿Public Class Registro_de_Articulos
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        Dim screenWidth As Integer = Screen.PrimaryScreen.Bounds.Width
+        Dim screenHeight As Integer = Screen.PrimaryScreen.Bounds.Height
+
+        Me.Height = screenHeight - 63
+        Me.Width = screenWidth - 241
+
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        Dim box = New Registro_de_Ventas()
-        Registro_de_Ventas.Show()
 
     End Sub
+
 End Class
