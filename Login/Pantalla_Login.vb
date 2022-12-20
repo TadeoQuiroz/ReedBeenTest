@@ -62,6 +62,9 @@ Public Class Pantalla_Login
         btnRound.Region = New Region(Raduis)
     End Sub
 
+    Private Sub btnRound_Click(sender As Object, e As EventArgs) Handles btnRound.Click
+        Registro_de_Ventas_Articulos.Registro_de_Ventas.Show()
+    End Sub
 End Class
 
 'PANEL CUADRADO PARA EL FORMS

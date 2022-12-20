@@ -30,12 +30,12 @@ Partial Class Pantalla_Login
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ShapedPanel2 = New Pantalla_Login.ShapedPanel()
-        Me.ShapedPanel3 = New Pantalla_Login.ShapedPanel()
+        Me.ShapedPanel2 = New Login.ShapedPanel()
+        Me.ShapedPanel3 = New Login.ShapedPanel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ShapedPanel4 = New Pantalla_Login.ShapedPanel()
-        Me.ShapedPanel7 = New Pantalla_Login.ShapedPanel()
-        Me.ShapedPanel1 = New Pantalla_Login.ShapedPanel()
+        Me.ShapedPanel4 = New Login.ShapedPanel()
+        Me.ShapedPanel7 = New Login.ShapedPanel()
+        Me.ShapedPanel1 = New Login.ShapedPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Label1 = New System.Windows.Forms.Label()
@@ -207,7 +207,7 @@ Partial Class Pantalla_Login
         Me.Panel2.Size = New System.Drawing.Size(105, 46)
         Me.Panel2.TabIndex = 11
         '
-        'Login
+        'Pantalla_Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -230,7 +230,7 @@ Partial Class Pantalla_Login
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Login"
+        Me.Name = "Pantalla_Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Iniciar Sesión"
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))

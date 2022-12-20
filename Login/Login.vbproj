@@ -19,6 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Administración_pantalla\Administración_pantalla.vbproj" />
+    <ProjectReference Include="..\RegistroDeVentas\RegistroDeVentas\Registro_de_Ventas_Articulos.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
